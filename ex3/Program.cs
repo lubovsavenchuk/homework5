@@ -3,8 +3,6 @@
 int N = 15;
 int[] array = new int[N];
 int index = 0;
-int max = array[0];
-int min = array[0];
 
 while (index < N)
 {
@@ -12,6 +10,9 @@ while (index < N)
    Console.Write(array[index] + " ");
    index++;
 }
+
+int max = array[0];
+int min = array[0];
 
 for(index = 1; index < array.Length; index++)
 {
